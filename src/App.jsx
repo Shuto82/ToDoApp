@@ -17,6 +17,7 @@ function App() {
       {user && (
         <MeetingRoomIcon
           onClick={() => signOutUser(auth)}
+          titleAccess="Kilépés"
           sx={{ width: "100%", cursor: "pointer", color: "red", fontSize: '2rem' }}
         />
       )}
