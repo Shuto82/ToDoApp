@@ -12,7 +12,7 @@ import { EditItem } from "./EditItem";
 
 export const Todo = ({ id, description, done }) => {
   console.log(id);
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false); 
 
   return (
     <>

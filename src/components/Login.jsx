@@ -36,7 +36,7 @@ export const SignIn = () => {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Sign in
+            Bejelentkezés
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
@@ -44,7 +44,7 @@ export const SignIn = () => {
               required
               fullWidth
               id="email"
-              label="Email Address"
+              label="E-mail cím"
               name="email"
               autoComplete="email"
               autoFocus
@@ -54,7 +54,7 @@ export const SignIn = () => {
               required
               fullWidth
               name="password"
-              label="Password"
+              label="Jelszó"
               type="password"
               id="password"
               autoComplete="current-password"
@@ -65,7 +65,7 @@ export const SignIn = () => {
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              Sign In
+              Belépés
             </Button>
           </Box>
         </Box>

@@ -49,7 +49,7 @@ export const deleteToDo = async (id) => {
   await deleteDoc(docRef);
 }
 
-export const editItem = async (id, description) => {
+export const editItem = async (id, description, title, photoUrl) => {
   const docRef = doc(db, 'todolist', id);
-  await updateDoc(docRef, {description});
+  await updateDoc(docRef, {description}, {title}, {photoUrl});
 } 

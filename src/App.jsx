@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>My To Do List</h1>
+      <h1>Tennivalóim listája</h1>
       {user && (
         <MeetingRoomIcon
           onClick={() => signOutUser(auth)}

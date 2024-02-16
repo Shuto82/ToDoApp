@@ -24,7 +24,7 @@ export const AddNewItem = () => {
     >
       <TextField 
       id="outlined-basic" 
-      label="Add new To do" 
+      label="Új tennivaló hozzáadása" 
       variant="outlined" 
       value = {newItem}
       onChange={(e) => setNewItem(e.target.value)}

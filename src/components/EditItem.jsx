@@ -16,7 +16,7 @@ export const EditItem = ({open, setOpen, id, description}) => {
   }
 
   const handleClose = () => {
-    setOpen(false);
+    setOpen(false); 
   };
 
   return (
